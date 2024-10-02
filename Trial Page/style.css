@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    margin: 10px 5px 0 5px;
+    border: dotted 0.5px orangered;
+    text-decoration:dotted;
+    display: flex;
+    align-items: center;
+    padding: 0 100px  0 100px;
+    
+}
+.nav-links ,li,a{
+    text-decoration:none;
+    display: flex;
+    margin-left: 10px;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: chocolate;    
+}
+.nav-links,li,a:hover{
+    color: orange;
+}
+.nav-login,button{
+    margin-left:20px;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.jndnow-btn{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.login{
+    background-color: white;
+    color: chocolate;
+    border: solid 2px chocolate;
+    font-weight:800;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.brand-image{
+    height: 500px;
+    width: 100%;
+    margin: 8px 0 8px 0;
+}
+.brand-work {
+    clip-path: polygon(100% 0%,95% 50%,100% 100%, 0% 100%,5% 50%,0% 0%);
+    color:white;
+    background-color: brown;
+    height:50px;
+    width: 300px;
+    position: relative;
+    bottom: 37px;
+    margin: 0 500px 0 500px;
+    z-index:1;
+}
+.brand-work header{
+    text-align:center;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding-top:15px;
+}
+ .brand-varandity {
+    border: 1px dotted orange;
+    position: relative;
+    bottom: 50px;
+    height: 450px;
+    display: flex; 
+    justify-content: space-around; 
+ }
+ .brand-varandity p{
+    color: brown;
+    font-weight:bold;
+    font-size: 15px;
+ }
+ .box, .box1{
+    text-align: center;
+    margin-top: 20px;
+ }
+.box2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+ }
+ .box2 button{
+    margin-top: 30px;
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 2px;
+
+ }
