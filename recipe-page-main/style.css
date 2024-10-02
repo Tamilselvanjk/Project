@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite:hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(32, 45%, 50%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 39%);
+}
+ body{
+    background-color: var(--Eggshell);
+    font-family:serif ;
+ }
+ .container{
+    background-color: var(--White);
+    width: 50%;
+    margin: 50px auto;
+    border: 6px solid var(--White);
+    padding:20px;
+    border-radius: 10px;
+    
+ }
+ .recipe img{
+    width:100%;
+    height:30% ;
+    border-radius: 10px;
+    margin-bottom: 1em;
+ }
+
+ .propertime{
+   background-color: var(--RoseWhite);
+   padding: 1.5em 1em;
+   border-radius: 5px;
+   margin: 0.2em 0;
+ }
+ .propertime h3{
+   color: var(--WengeBrown);
+ }
+.propertime ul{
+   list-style: none;
+}
+.propertime ul li ::before{
+   content: "\2022";
+   font-weight:bold;
+   font-size:15px;
+   color: var(--Nutmeg);
+   display:inline-block;
+   width: 2em;
+   line-height: 2;
+}
+.ingredients{
+   padding: 0 0.5em 0.5em 0;
+}
+.ingredients h2{
+   color: var(--WengeBrown);
+}
+.ingredients ul{
+   list-style: none;
+}
+.ingredients ul li::before{
+   content: "\2022";
+   color: var(--Nutmeg);
+   font-weight: bold;
+   font-size: 15px;
+   display: inline-block;
+   width: 2em;
+   line-height: 2;
+}
+
+.instruction h2{
+   color: var(--WengeBrown);
+}
+.instruction{
+   padding: 0.5em 0;
+}
+.instruction ol{
+   margin-left: 1.2em;
+}
+.instruction ol li{
+   padding-left: 2em;
+   margin-bottom: 1em;
+}
+.instruction ol li::marker{
+   color: var(--Nutmeg);
+   font-weight: bold;
+}
+
+.grame h1{
+   color: var(--WengeBrown);
+}
+.grame table{
+     padding-left: 2em;
+     border-collapse: collapse;
+     width: 100%;
+}
+.grame tr td{
+   margin-left:1.5em;
+}
+.grame tr{
+   display: grid;
+   grid-template-columns:1fr 2fr;
+   column-gap: 95px;
+   line-height:2.5em;
+   border-top: 1px solid rgb(219, 212, 212);
+}
+
+tr:first-child{
+   border: none;
+}
+
+.grame td:nth-child(2){
+   color: var(--WengeBrown);
+   font-weight:bold;
+   font-size: 16px;
+
+}
+hr{
+   border: 0;
+   height: 1px;
+   background: #dddddd;
+}
+
