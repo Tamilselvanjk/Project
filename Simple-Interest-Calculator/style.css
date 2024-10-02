@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+h1{
+    color:grey;
+    font-family: verdana;
+}
+
+.maindiv{
+    background-color:white;
+    color: black;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 1em auto;
+    
+}
+
+#result{
+   letter-spacing: 2px;
+}
+
+.interest{
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+}
